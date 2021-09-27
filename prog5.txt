@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class even {
+    public static void main(String args[])
+    {
+        Scanner num1=new Scanner(System.in);
+        int a=num1.nextInt();
+        Scanner num2=new Scanner(System.in);
+        int b=num2.nextInt();
+        for(int i=a;i<=b;i++)
+        {
+            if(i%2==0)
+            {
+                System.out.println("even is"+i);
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Welcome {
+    public static void main(String args[])
+    {
+      Scanner number1=new Scanner(System.in);
+      int a=number1.nextInt();
+      Scanner number2=new Scanner(System.in);
+      int b=number1.nextInt();
+      double c=Math.pow(a,0.5)+Math.pow(b,0.5);
+      System.out.println("ans is"+c);
+    }
+}
